@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    
+    gap: 100px;
+    align-items: center;
+}
+
+
+.cake{
+    display: inline-block;
+    width: 50%;
+    height: 600px;
+    align-content: center;
+    text-align: center;
+}
+
+.flames{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    position: relative;
+    top: -310px;
+    right: 11px;
+    gap: 4px;
+}
+#flama3{
+    position: relative;
+    top: 7px;
+}
+.flama{
+    display: none;
+}
+
+.flama{
+    width: 70px;
+}
+
+#button{
+    width: 80px;
+    height: 20px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+}
+.text p{
+    color: aliceblue;
+}

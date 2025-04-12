@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cake">
+        <img src="./Cake.png "d alt="">
+        <div class="flames">
+            <img src="frames.gif" alt="" id="flama1" class="flama">
+            <img src="frames.gif" alt="" id="flama2" class="flama">
+            <img src="frames.gif" alt="" id="flama3" class="flama">
+        </div>
+    </div>
+
+    <div class="text">
+        <p>Feliz cumpleaños</p>
+        <button id="button" onclick="encender()">Encender</button>
+    </div>
+    
+    <script>
+        function encender(){
+            const flama1 = document.getElementById("flama1");
+            flama1.style.display = "block";
+            const flama2 = document.getElementById("flama2");
+            flama2.style.display = "block";
+            const flama3 = document.getElementById("flama3");
+            flama3.style.display = "block";
+        }
+    </script>
+</body>
+</html>
